@@ -1,0 +1,88 @@
+#right-menu {
+    text-align: right;
+    margin-top: -10px;
+    word-spacing: 7px;
+ }
+ 
+ form {
+     text-align: center;
+     margin-top: 160px;
+ }
+ 
+ img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ 
+ input {
+   width: 600px;
+   height: 40px;
+   border-radius: 40px;
+   border: 1px solid rgb(201, 208, 214);
+ } 
+ 
+ button {
+   margin: 20px;
+   height: 40px;
+   width: 180px;
+   border: beige;
+   border-radius: 5px;
+   font-size: 18px;
+   color: grey;
+ }
+ 
+ #sign {
+   background-color: rgb(62, 81, 194);
+   width:100px;
+   color: white;
+ }
+ #footer1 {
+   position: absolute;
+   height: 2.5rem;
+   word-spacing: 7px;  
+   margin-left: 5px;
+ }
+ 
+ #footer2 {
+ height: 2.5rem; 
+ text-align: right;
+ margin-right: 5px;
+ }
+ 
+ a {
+   color: rgb(97, 94, 94);
+ }
+ 
+ .icons i {
+   position: absolute;
+   padding: 11px;
+   color: rgb(191, 185, 202);
+   width: 70px;
+   text-align: left;
+ }
+ 
+ #icons {
+   position: absolute;
+   padding: 11px;
+   color: rgb(191, 185, 202);
+   width: 575px;
+   text-align: right;
+ }
+ 
+ footer {
+   background-color:rgb(234, 231, 238);
+   height: 65px;
+   margin-top: 150px;
+   word-spacing: 6px;
+   padding-top: 5px;
+   font-size: 20px;
+ }
+ 
+ body {
+   margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+ }
+ 
