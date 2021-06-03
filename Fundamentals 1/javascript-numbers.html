@@ -231,28 +231,28 @@
             let offerWeb = 0.25;
             const finalPriceWeb = originalPriceWeb - (originalPriceWeb*offerWeb)
             console.log(finalPriceWeb);
-            document.getElementById("box1").innerHTML = ("Special offer " + offerWeb + " off: &euro;" + originalPriceWeb + " </p>");
+            document.getElementById("box1").innerHTML = ("Special offer " + offerWeb*100 + "% off: &euro;" + originalPriceWeb + " </p>");
             console.log(finalPriceWeb);
             
             let originalPriceApp = 400;
             let offerApp = 0.25;
             const finalPriceApp = originalPriceApp - (originalPriceApp*offerApp)
             console.log(finalPriceApp);
-            document.getElementById("box2").innerHTML = ("Special offer " + offerApp + " off: &euro;" + originalPriceApp + " </p>");
+            document.getElementById("box2").innerHTML = ("Special offer " + offerApp*100 + "% off: &euro;" + originalPriceApp + " </p>");
             console.log(finalPriceApp);
 
             let originalPriceMob = 350;
             let offerMob = 0.25;
             const finalPriceMob = originalPriceMob - (originalPriceMob*offerMob)
             console.log(finalPriceMob);
-            document.getElementById("box3").innerHTML = ("Special offer " + offerMob + " off: &euro;" + originalPriceMob + " </p>");
+            document.getElementById("box3").innerHTML = ("Special offer " + offerMob*100 + "% off: &euro;" + originalPriceMob + " </p>");
             console.log(finalPriceMob);
 
             let specialPrice = (originalPriceApp + originalPriceMob + originalPriceWeb);
             let specialOffer = 0.25;
-            const finalOfferPrice = specialPrice - (specialPrice*specialOffer)
+            const finalOfferPrice = (specialPrice) - (specialPrice*specialOffer)
             console.log(finalOfferPrice);
-            document.getElementById("package").innerHTML = ("Special offer " + specialOffer + " off: &euro;" + specialPrice + " </p>");
+            document.getElementById("package").innerHTML = ("Special offer " + specialOffer*100 + "% off: &euro;" + specialPrice + " </p>");
             console.log(finalOfferPrice);
         
             document.getElementById('footer').innerHTML = ("<p> &copy;" + companyCreated + "~" + currentYear + " Landing Page </p>");
