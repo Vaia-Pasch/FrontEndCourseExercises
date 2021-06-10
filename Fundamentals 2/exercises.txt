@@ -1,0 +1,4 @@
+1) https://replit.com/@VaiaPasch/troubleshooting#troubleshooting.js
+2) https://replit.com/@VaiaPasch/enter-a-number#script.js
+3) https://replit.com/@VaiaPasch/lets-do-some-math#math.js
+4) https://replit.com/@VaiaPasch/direction-follow-1#follow.js
