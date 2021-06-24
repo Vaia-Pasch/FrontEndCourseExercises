@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+        const content = document.querySelector("body");
+
+        const paragraph = document.createElement("p");
+        paragraph.textContent = "Hey I'm red!";
+        paragraph.style.color = "red";
+
+        content.appendChild(paragraph);
+
+        const header = document.createElement("h3")
+        header.textContent = "Hey I'm a blue h3!"
+        header.style.color = "blue";
+
+        content.appendChild(header);
+
+        const elementDiv = document.createElement("div")
+        elementDiv.style.cssText = "border: black solid; background: pink"; 
+        // elementDiv.style.background = "pink";
+        // elementDiv.style.border = "black solid";
+        content.appendChild(elementDiv);
+
+        const addToDiv = document.createElement("h1");
+        addToDiv.textContent = "I’m in a div"
+        elementDiv.appendChild(addToDiv)
+
+        const anotherParagraph = document.createElement("p")
+        anotherParagraph.textContent = "ME TOO"
+        elementDiv.appendChild(anotherParagraph)
+ </script>
+</body>
+</html>
